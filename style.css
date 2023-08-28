@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  min-height: 130vh;
+  width: 100%;
+  display: flex;
+}
+
+/* style for the main container */
+.main-container {
+ display: flex;
+ flex-direction: row;
+ background-color: rgb(174, 174, 189);
+  background-size: cover;
+  height: 130vh;
+  width: 99%;
+  background-attachment: fixed;
+  justify-content: space-between;
+}
+
+/* styling for the left side */
+.left{
+height: 100%;
+width: 78%; 
+margin: 0;
+padding: 20px 0 20px 3%;
+display: flex;
+flex-direction: column;
+
+}
+
+/* styling for the upper left section */
+.left-up{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 50%;
+margin: 0;
+padding: 0;
+
+}
+
+
+.clifford{
+  margin: 10px 15px;
+  padding: 3%;
+background-color: rgb(86, 13, 233);
+width: 70%;
+border-radius: 20px;
+color: white;
+}
+
+.Jonathn{
+  margin: 10px 15px;
+  padding: 3%;
+  background-color: rgb(2, 2, 99);
+width: 30%;
+border-radius: 20px;
+color: white;
+}
+
+/* styling for the bottom left section */
+.left-down{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.Hamond{
+  margin: 10px 15px;
+  padding: 3%;
+background-color: white;
+width: 30%;
+border-radius: 20px;
+}
+
+.Patrick{
+  margin: 10px 15px;
+  padding: 3%;
+  background-color: rgb(2, 2, 99);
+  width: 70%;
+  border-radius: 20px;
+  color: white;
+}
+
+/* styling for the right side that is for Kira*/
+.right{
+background-color: white;
+height: 90%;
+ width: 20%; 
+ margin: 30px 2% 15px 3%;
+ padding: 2%;
+ border-radius: 20px;
+}
+
+/* style for the part that contains image and name */
+.header-section{
+  display: flex;
+  padding: 10px 3%;
+}
+
+/* styling for all the images */
+.image1{
+  background-image: url(images/pic-1.jpg);
+  height: 50px;
+  width: 45px;
+  border-radius: 50%;
+  padding:30px ;
+  margin: 0 4% 10px 2%;
+  border: 2px white solid;
+}
+
+.image2{
+  background-image: url(images/pic-2.jpg);
+  height: 50px;
+  width: 45px;
+  border-radius: 50%;
+  padding: 30px;
+  margin: 0 20px 10px 5px;
+  border: 2px  rgb(86, 13, 233) solid;
+}
+
+.image3{
+  background-image: url(images/pic-3.jpg);
+  height: 50px;
+  width: 45px;
+  border-radius: 50%;
+  padding: 30px;
+  margin: 0 20px 10px 5px;
+  border: 2px  rgb(86, 13, 233) solid;
+}
+
+.image4{
+  background-image: url(images/pic-4.jpg);
+  height: 50px;
+  width: 45px;
+  border-radius: 50%;
+  padding: 30px;
+  margin: 0 20px 10px 5px;
+  border: 2px  rgb(86, 13, 233) solid;
+}
+
+.image5{
+  background-image: url(images/pic-5.jpg);
+  height: 50px;
+  width: 45px;
+  border-radius: 50%;
+  padding: 30px;
+  margin: 0 20px 10px 5px;
+  border: 2px  rgb(86, 13, 233) solid;
+}
+
+/* styling for the container housing the name and status */
+.name{
+  padding: 0;
+  margin: 0;
+}
+
+/* styling for the name */
+.name h3{
+font-size: 25px;
+font-family: poppins;
+line-height: 1.2;
+
+}
+
+/* styling for the status */
+.name h6{
+  font-size: 14px;
+  font-family: poppins;
+  line-height: 1.2;
+  margin-top: 10px;
+   }
+
+   /* styling for first part of the paragraph */
+   .p1{
+    font-size: 20px;
+    font-family: poppins;
+    margin-bottom: 10px;
+   }
+
+   /* styling for the second part of the paragraph */
+   .p2{
+    font-size: 16px;
+    font-family: poppins;
+    line-height: 1.5;
+   }
+
+   @media (max-width: 1100px){
+    .name h3{
+      font-size: 20px;
+      }
+
+   }
+
+   @media(max-width:1020px){
+    .main-container {
+      display: flex;
+      flex-direction: column;
+     
+     }
+
+     .left{
+      height: 75%;
+      width: 95%; 
+      margin: 0;
+      padding: 20px 0 20px 3%;
+      display: flex;
+      flex-direction: column;
+      
+      }
+
+      /* styling for the right side that is for Kira*/
+    .right{
+      background-color: white;
+      height: 23%;
+     width: 95%; 
+     margin: 10px 2% 15px 3%;
+      padding: 2%;
+      border-radius: 20px;
+  }
+
+  
+/* styling for the name */
+.name h3{
+  font-size: 18px;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 5%;
+  line-height: 1.2;
+  
+  }
+
+  /* styling for the status */
+   .name h6{
+    font-size: 12px;
+    line-height: 1.1;
+    margin-top: 5px;
+     }
+
+      /* styling for first part of the paragraph */
+   .p1{
+    font-size: 15px;
+    font-family: poppins;
+    margin-bottom: 10px;
+   }
+
+     .p2{
+      font-size: 14px;
+      line-height: 1.3;
+     }
+ }
+
+ @media (max-width:770px){
+body {
+  min-height: 150vh;
+  width: 100%;
+  display: flex;
+}
+
+/* style for the main container */
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    }
+
+    .left{
+      height: 80%;
+      width: 99%; 
+      margin: 0;
+      padding: 20px 0 20px 3%;
+      display: flex;
+      flex-direction: column;
+      
+      }
+
+        /* styling for the right side that is for Kira*/
+    .right{
+      background-color:rosybrown;
+      height: 20%;
+     width: 95%; 
+     margin: 10px 2% 15px 3%;
+      padding: 2%;
+      border-radius: 20px;
+      position: relative;
+      top: -15px;
+  }
+
+    /* styling for the upper left section */
+.left-up{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  
+  }
+
+   /* styling for the bottom left section */
+   .left-down{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: px;
+  }
+
+  .clifford{
+    margin: 10px 20px 10px 5px;
+    padding: 3%;
+  background-color: rgb(86, 13, 233);
+  width: 98%;
+ border-radius: 20px;
+  color: white;
+  }
+  
+  .Jonathn{
+    margin: 10px 20px 10px 5px;
+    padding: 3%;
+    background-color: rgb(2, 2, 99);
+  width: 98%;
+
+  border-radius: 20px;
+  color: white;
+  }
+  
+ 
+  
+  .Hamond{
+    margin: 10px 20px 10px 5px;
+    padding: 3%;
+  background-color: white;
+  width: 98%;
+
+  border-radius: 20px;
+  }
+  
+  .Patrick{
+    margin: 10px 20px 10px 5px;
+    padding: 3%;
+    background-color: rgb(2, 2, 99);
+    width: 98%;
+    border-radius: 20px;
+    color: white;
+  }
+  
+ }
